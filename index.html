@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>Canvas图片滑块拖动验证码</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="captcha" style="position: relative;">
+            <canvas width="310" height="155"></canvas>
+            <!-- <div class="refresh-icon"></div> -->
+            <canvas width="310" height="155" class="block"></canvas>
+            <div class="slider-container">
+                <div class="slider">
+                    <span class="slider-icon"></span>
+                    <span class="slider-icon"></span>
+                    <span class="slider-icon"></span>
+                </div>
+            </div>
+        </div>
+        <div id="msg"></div>
+    </div>
+</body>
+
+<script src="./index.js"></script>
+
+</html>
